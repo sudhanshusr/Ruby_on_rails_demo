@@ -5,6 +5,17 @@ require File.expand_path('../config/application', __FILE__)
 
 Rails.application.load_tasks
 
+#require 'rubocop/rake_task'
+
+#RuboCop::RakeTask.new
+
 require 'rubocop/rake_task'
 
-RuboCop::RakeTask.new
+desc 'Run RuboCop on the lib directory'
+RuboCop::RakeTask.new(:rubocop) do |task|
+  task.patterns = ['lib/**/*.rb']
+  # only show the files with failures
+  task.formatters = ['files']
+  # don't abort rake on failure
+  task.fail_on_error = false
+end
