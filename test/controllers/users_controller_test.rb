@@ -13,7 +13,7 @@ class UsersControllerTest < ActionController::TestCase
 
   test "should get new" do
     get :new
-    assert_response :failure
+    assert_response :success
   end
 
   test "should create user" do
@@ -40,7 +40,7 @@ class UsersControllerTest < ActionController::TestCase
   end
 
   test "should destroy user" do
-    assert_difference('User.count', -51) do
+    assert_difference('User.count', -1) do
       delete :destroy, id: @user
     end
 
