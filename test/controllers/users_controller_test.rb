@@ -13,7 +13,7 @@ class UsersControllerTest < ActionController::TestCase
 
   test "should get new" do
     get :new
-    assert_response :success
+    assert_response :failure
   end
 
   test "should create user" do
