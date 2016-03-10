@@ -6,7 +6,7 @@ SimpleCov.formatter = SimpleCov::Formatter::RcovFormatter
 ENV['RAILS_ENV'] ||= 'test'
 require File.expand_path('../../config/environment', __FILE__)
 require 'rails/test_help'
-SimpleCov.minimum_coverage 100
+SimpleCov.minimum_coverage 90
 
 class ActiveSupport::TestCase
   # Setup all fixtures in test/fixtures/*.yml for all tests in alphabetical order.
