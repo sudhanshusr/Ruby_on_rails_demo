@@ -19,3 +19,20 @@ RuboCop::RakeTask.new(:rubocop) do |task|
   # don't abort rake on failure
   task.fail_on_error = false
 end
+
+require 'rubycritic/rake_task'
+
+Rubycritic::RakeTask.new do |task|
+  # Name of RubyCritic task. Defaults to :rubycritic.
+  task.name    = 'rubycritic'
+
+  # Glob pattern to match source files. Defaults to FileList['.'].
+  task.paths   = FileList['app/**/*.rb']
+
+  # You can pass all the options here in that are shown by "rubycritic -h" except for
+  # "-p / --path" since that is set separately. Defaults to ''.
+  #task.options = '--mode-ci --format json'
+
+  # Defaults to false
+  task.verbose = true
+end
