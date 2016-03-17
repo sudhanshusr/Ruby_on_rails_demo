@@ -30,7 +30,7 @@ gem 'simplecov', :require => false, :group => :test
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
-# Use Unicorn as the app server
+# Use Unicorn as the app server thans
 # gem 'unicorn'
 
 # Use Capistrano for deployment
