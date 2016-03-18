@@ -10,3 +10,5 @@ AllCops:
     - 'vendor/**/*'
     - 'tmp/**/*'
     - 'db/**/*'
+Rails:
+  Enabled: true
