@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+# Bundle edge Rails instead: gem 'rails', github: 'rails/rails' thanks
 gem 'rails', '4.2.5.1'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
@@ -9,9 +9,13 @@ gem 'mysql2'
 gem "minitest-hyper"
 gem 'simplecov-rcov'
 gem "rubycritic"
+<<<<<<< HEAD
 # Use SCSS for stylesheets
+=======
+# Use SCSS for stylesheets thank
+>>>>>>> 34fc110b717e48ab7cd55ffd0760f65812445081
 gem 'sass-rails', '~> 5.0'
-# Use Uglifier as compressor for JavaScript assets
+# Use Uglifier as compressor for JavaScript assets 
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.1.0'
@@ -30,7 +34,7 @@ gem 'simplecov', :require => false, :group => :test
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
-# Use Unicorn as the app server
+# Use Unicorn as the app server thans
 # gem 'unicorn'
 
 # Use Capistrano for deployment

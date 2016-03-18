@@ -34,4 +34,8 @@ Rubycritic::RakeTask.new do |task|
 
   # Defaults to false
   task.verbose = true
+<<<<<<< HEAD
 end
+=======
+end
+>>>>>>> 34fc110b717e48ab7cd55ffd0760f65812445081
