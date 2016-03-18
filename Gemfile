@@ -8,12 +8,10 @@ gem 'sqlite3'
 gem 'mysql2'
 gem "minitest-hyper"
 gem 'simplecov-rcov'
-gem "rubycritic"
-<<<<<<< HEAD
+gem 'rubycritic'
+
 # Use SCSS for stylesheets
-=======
-# Use SCSS for stylesheets thank
->>>>>>> 34fc110b717e48ab7cd55ffd0760f65812445081
+
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets 
 gem 'uglifier', '>= 1.3.0'
